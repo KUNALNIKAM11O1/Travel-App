@@ -52,7 +52,7 @@ const Contact=()=>{
           <input
             type="tel"
             className="form-control"
-            placeholder="Phone Number"
+            placeholder="Enter Phone Number"
             required
           />
         </div>
