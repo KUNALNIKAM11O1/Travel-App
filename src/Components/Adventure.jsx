@@ -23,7 +23,7 @@ const Adventure=[{
 },
 
 {
-    id : 1,
+    id : 4,
     icon : "https://icons.getbootstrap.com/assets/icons/airplane.svg",
     main : "Best Airlines",
     para : "Providing the flights with highest qulaity"
@@ -31,14 +31,14 @@ const Adventure=[{
 
 {
 
-    id : 2,
+    id : 5,
     icon : "https://icons.getbootstrap.com/assets/icons/star.svg",
     main : "Lifetime Memories",
     para : "Experiences that transforms perspectives"
 
 },
 {
-    id : 3,
+    id : 6,
     icon :"https://icons.getbootstrap.com/assets/icons/shield-fill-check.svg",
     main : "Flexible Policies",
     para : "Free Cancellation upto 20 days of departure"
