@@ -12,7 +12,7 @@ const Home=()=>{
     return(
         <>
 
-       <section className="hero d-flex align-items-center text-dark bg-secondary" style={{height:"80vh",background:" url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg) center/cover no-repeat"}}>
+       <section className="hero d-flex align-items-center text-dark  " style={{height:"80vh",background:" url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg) center/cover no-repeat"}}>
         <div className="container text-center">
         <h1 className="display-4 fw-bold">Explore The World</h1>
         <p className="mt-3 fs-3">Discover beautiful destinations with best travel deals</p>
@@ -21,7 +21,7 @@ const Home=()=>{
        </section>
 
 
-       <section className="py-5 bg-secondary">
+       <section className="py-5 ">
         <div className="container text-center">
             <h2 className="fw-bold mb-4">Why Choose Us?</h2>
 
@@ -44,7 +44,7 @@ const Home=()=>{
             </section>
 
 
-            <section className="package py-5 fw-bold align-items-center bg-secondary">
+            <section className="package py-5 fw-bold align-items-center bg-light">
                <div className="container text-center">
                 <h2 className="fw-bold mb-4">Popular Packages</h2>
 
