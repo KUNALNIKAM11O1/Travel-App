@@ -73,7 +73,7 @@ const About=()=>{
             </div>
         </section>
 
-<section className="milestones py-5">
+<section className="milestones py-5"  style={{backgroundColor:"rgba(181, 163, 185, 0.5)"}}>
   <div className="container text-center">
     <h1 className="fw-bold">Milestones in Our Adventure</h1>
     <h4 className="fw-light mb-5">Key moments that shaped who we are today</h4>
