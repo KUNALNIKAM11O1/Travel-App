@@ -9,7 +9,7 @@ const Footer = () => {
   return (
    <>
 
-   <footer className="footer-bg text-light bg-dark pt-4 pb-2 ">
+   <footer className="footer-bg text-light  pt-4 pb-2 " style={{backgroundColor:"rgba(17, 17, 19, 0.78)"}}>
     <div className="container">
       <div className="row">
         <div className="col-md-3">

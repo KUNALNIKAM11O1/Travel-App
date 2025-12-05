@@ -4,9 +4,9 @@ const Navbar=()=>{
     return(
         <>
 
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <nav className="navbar navbar-expand-lg navbar-dark  " style={{backgroundColor:"rgba(19, 46, 71, 0.78)"}}>
             <div className="container">
-                <NavLink to="/" className="navbar-brand fw-bold" style={{fontSize:"24px"}}>KNK Tour & Travels</NavLink>
+                <NavLink to="/" className="navbar-brand fw-bold text-dark" style={{fontSize:"24px"}}>KNK Tour & Travels</NavLink>
 
                 <button className="navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span className="navbar-toggle-icon"></span>

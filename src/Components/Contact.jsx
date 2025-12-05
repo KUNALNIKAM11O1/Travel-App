@@ -11,7 +11,7 @@ const Contact=()=>{
            
            
         </section>
-        <section className="py-5">
+        <section className="py-5"  style={{backgroundColor:"cadetblue"}}>
             
             <div className="container text-center">
                <div className="row">

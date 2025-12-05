@@ -13,7 +13,7 @@ const Tours=()=>{
            
             <div className="container text-center">
                 <h1 className="display-4 fw-bold">Tours</h1>
-                <p className="fs-4">Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+               
             </div>
         </section>
          <section className="py-5">

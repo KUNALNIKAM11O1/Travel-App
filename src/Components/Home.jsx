@@ -21,7 +21,7 @@ const Home=()=>{
        </section>
 
 
-       <section className="py-5 ">
+       <section className="py-5 "style={{backgroundColor:"rgba(156, 119, 63, 0.5)"}}>
         <div className="container text-center">
             <h2 className="fw-bold mb-4">Why Choose Us?</h2>
 
@@ -33,7 +33,7 @@ const Home=()=>{
         </div>
        </section>
 
-            <section className="stats py-5 fw-bold bg-info" style={{background:"blue"}}>
+            <section className="stats py-5 fw-bold" >
                 <div className="container text-center">
                     <div className="row">
                         {Stats.map((item)=>(
@@ -44,7 +44,7 @@ const Home=()=>{
             </section>
 
 
-            <section className="package py-5 fw-bold align-items-center bg-light">
+            <section className="package py-5 fw-bold align-items-center " style={{backgroundColor:"rgba(156, 119, 63, 0.5)"}}>
                <div className="container text-center">
                 <h2 className="fw-bold mb-4">Popular Packages</h2>
 
