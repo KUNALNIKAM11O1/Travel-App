@@ -14,11 +14,11 @@ const Navbar=()=>{
 
                 <div className="collapse navbar-collapse" id="navmenu">
                     <ul className="navbar-nav ms-auto fw-bold fs-5 " style={{gap:"10px"}}>
-                        <li className="nav-item "><NavLink  to="/" classname="nav-link" style={{color:"white"}} >Home</NavLink></li>
-                        <li className="nav-item"><NavLink to="/about" classname="nav-link"  style={{color:"white"}}>About</NavLink></li>
-                        <li className="nav-item"><NavLink to="/destination" classname="nav-link"  style={{color:"white"}}>Destination</NavLink></li>
-                        <li className="nav-item"><NavLink to="/tours" classname="nav-link"  style={{color:"white"}}>Tours</NavLink></li>
-                         <li className="nav-item"><NavLink to="/contact" classname="nav-link"  style={{color:"white"}}>Contact</NavLink></li>
+                        <li className="nav-item "><NavLink  to="/" className="nav-link" style={{color:"white"}} >Home</NavLink></li>
+                        <li className="nav-item"><NavLink to="/about" className="nav-link"  style={{color:"white"}}>About</NavLink></li>
+                        <li className="nav-item"><NavLink to="/destination" className="nav-link"  style={{color:"white"}}>Destination</NavLink></li>
+                        <li className="nav-item"><NavLink to="/tours" className="nav-link"  style={{color:"white"}}>Tours</NavLink></li>
+                         <li className="nav-item"><NavLink to="/contact" className="nav-link"  style={{color:"white"}}>Contact</NavLink></li>
 
                        
                     </ul>

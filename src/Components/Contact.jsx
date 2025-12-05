@@ -29,46 +29,46 @@ const Contact=()=>{
         </section>
         <section className="py-5  " style={{backgroundColor:"cadetblue"}}>
             
-            <div class="container py-5 ">
-  <div class="form-container  p-4 mx-auto shadow rounded " style={{ maxwidth: "600px"}}>
-    <h1 class="text-center text-dark mb-3">Get in Touch</h1>
+            <div className="container py-5 ">
+  <div className="form-container  p-4 mx-auto shadow rounded " style={{ maxwidth: "600px"}}>
+    <h1 className="text-center text-dark mb-3">Get in Touch</h1>
   
 
     <form>
-      <div class="row g-3">
+      <div className="row g-3">
 
        
-        <div class="col-12">
+        <div className="col-12">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             placeholder="Full Name"
             required
           />
         </div>
 
        
-        <div class="col-md-6 col-12">
+        <div className="col-md-6 col-12">
           <input
             type="tel"
-            class="form-control"
-            placeholder="Phone Number"
+            className="form-control"
+            placeholder="Enter Phone Number"
             required
           />
         </div>
        
-        <div class="col-md-6 col-12">
+        <div className="col-md-6 col-12">
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             placeholder="Mail ID"
             required
           />
         </div>
 
        
-        <div class="col-12">
-          <select class="form-select" required>
+        <div className="col-12">
+          <select className="form-select" required>
             <option value="">Select Office Location</option>
             <option value="mumbai">Mumbai,Maharashtra</option>
             <option value="jaipur">Jaipur, Rajasthan</option>
@@ -79,16 +79,16 @@ const Contact=()=>{
           </select>
         </div>
        
-        <div class="col-12">
+        <div className="col-12">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             placeholder="Type Your Feedback"
             required
           />
         </div>
        
-        <div class="col-12 d-flex justify-content-between mt-3">
+        <div className="col-12 d-flex justify-content-between mt-3">
           <button type="submit" class="btn btn-success px-4">Submit</button>
           <button type="reset" class="btn btn-danger px-4">Reset</button>
         </div>
